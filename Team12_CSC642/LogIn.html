@@ -16,41 +16,51 @@
     <body>
 
         <div class="container-fluid">
-            <div class="row" style="background-color: rgb(202, 202, 202);">
-                <div class="col-3"  style="width:150px;">
+            <div class="row" style="background-color: rgb(200, 200, 200);">
+                <div class="col-3" style="width:200px;">
                     <a href="/">
-                    <img src="/stylesheets/logo.png" class="rounded-circle" alt="LOGO" style="width:200px;height:100px;">
+                        <img src="public/stylesheets/logo.png" class="rounded float-left" alt="LOGO"
+                            style="width:200px;height:100px;">
                     </a>
                 </div>
-                <div class="col-7 text-end">
-                    <form method="POST" action="/users/ResultsPage" enctype="application/x-www-form-urlencoded">
-                        <div class="form-group btn btn-outline-primary  mt-1">
-                            <label for="demo_overview_minimal">Major</label>
-                            <select id="demo_overview_minimal" class="form-control" name="category"
-                                data-role="select-dropdown" data-profile="minimal">
-                                <option>Select Major</option>
-                                <option>ART</option>
-                                <option>BIOL</option>
-                                <option>CSC</option>
-                            </select>
+    
+                <div class="search-box col-md-6 m-auto">
+                    <form action="">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <select class="form-select" aria-label="Default select example" name="category">
+                                    <option>Select Major</option>
+                                    <option>ART</option>
+                                    <option>MATH</option>
+                                    <option>BIOL</option>
+                                    <option>BUS</option>
+                                    <option>CHEM</option>
+                                    <option>CINE</option>
+                                    <option>CSC</option>
+                                    <option>DS</option>
+                                    <option>ECON</option>
+                                    <option>ENGR</option>
+                                    <option>FIN</option>
+                                </select>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Search input with dropdown button">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">Search</button>
+                            </div>
                         </div>
-                        <input class="mt-5 w-50" id="search" type="text" name="search"
-                            placeholder="e.g. search computer science" aria-label="Search">
-                        <button class="btn btn-primary mt-1 text-start" type="submit">Search</button>
                     </form>
                 </div>
-
-                <div class="col-1 text-end" style="width:110px;">
-                    <a href="#">
-                    <button type="button" class="btn btn-outline-primary  mt-5 mx-auto">About</button>
+    
+                <div class="col-sm-1 text-end d-flex align-self-center">
+                    <a href="/SignUp">
+                        <button type="button" class="btn btn-primary mx-auto">Sign Up</button>
                     </a>
                 </div>
-                <div class="col-1 text-end" >
-                    <a href="#">
-                    <button type="button" class="btn btn-outline-primary mt-5 mx-auto">Sign Up</button>
+                <div class="col-sm-1 text-end d-flex align-self-center" style="width:100px;">
+                    <a href="/LogIn">
+                        <button type="button" class="btn btn-primary mx-auto">Log In</button>
                     </a>
                 </div>
-                
             </div>
 
 
