@@ -1,0 +1,54 @@
+/* CSS for AboutMeTemplate */
+h1{
+    text-align: center;
+    color: black;
+}
+
+.center-header{
+    text-align: center;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: dimgrey;
+    width: 300px;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+/*CSS for Search Bar Home Page*/
+.emphasis {
+
+    font-style: italic;
+    
+    }
+
+/*CSS Table for Search Results when you just click the Search bar*/
+table {
+    margin-top:20px;
+    margin-bottom:10px;
+    border: 2px solid black;
+    display: inline-block;
+    table-layout: auto;
+    width: 280px;
+  }
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+  }
