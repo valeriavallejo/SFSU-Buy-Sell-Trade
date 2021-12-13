@@ -20,6 +20,10 @@ router.get('/Login', function(req, res, next) {
   res.render('Login');
 });
 
+router.get('/SignUp', function(req, res, next) {
+  res.render('Registration');
+});
+
 router.get('/Post', function(req, res, next) {
   res.render('Post');
 });
