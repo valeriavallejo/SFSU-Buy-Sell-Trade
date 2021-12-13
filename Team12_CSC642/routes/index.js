@@ -16,6 +16,12 @@ router.get('/HomeResultsPage', function(req, res, next) {
   res.render('HomeResultsPage');
 });
 
+router.get('/ProductPage', function(req, res, next) {
+  res.render('ProductPage');
+});
 
+router.get('/LogIn', function(req, res, next) {
+  res.render('LogIn');
+});
 
 module.exports = router;
