@@ -29,6 +29,9 @@ router.get('/Post', function(req, res, next) {
   res.render('Post');
 });
 
+router.get('/ProductPage', function(req, res, next) {
+  res.render('ProductPage');
+});
 
 
 module.exports = router;
