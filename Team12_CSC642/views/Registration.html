@@ -1,7 +1,7 @@
 <!-- 
   @author: ManTing Weng (Sabrina) & Neesha
   @date: 
-  @description: login page
+  @description: register page
 -->
 
 <!DOCTYPE html>
@@ -10,14 +10,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/stylesheets/AboutMeTemplate.css">
-    <title>Log In</title>
+    <title>Registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="row" style="background-color: rgb(156, 155, 154);">
             <div class="col-3">
@@ -70,39 +69,48 @@
                 </a>
             </div>
         </div>
+    </div>
 
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <p>
-                <h1>Log In</h1>
-                </p>
-                <form>
-                    <div class="form-group" style="margin-top: 10px;">
-                        <em style="color: red;">*</em>
-                        <label>Username or Email Address</label>
-                        <input type="email" class="form-control" placeholder="username or email address" required>
-                    </div>
-                    <div class="form-group" style="margin-top: 10px;">
-                        <em style="color: red;">*</em>
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="password" required>
-                    </div>
-                    <div class="form-check" style="margin-top: 10px;">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="form-check-label">
-                            Remember me
-                        </label>
-                    </div>
-                    <div class="d-grid gap-2" style="margin-top: 10px;">
-                        <a class="btn btn-primary" href="/" role="button">Log In</a>
-                    </div>
-                    <div class="d-grid gap-2">
-                    </div>
-                </form>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <p>
+            <h1>Register</h1>
+            </p>
+            <form>
+                <div class="form-group" style="margin-top: 10px;">
+                    <em style="color: red;">*</em>
+                    <label>Username</label>
+                    <input type="username" class="form-control" placeholder="please enter username" required>
+                </div>
+                <div div class="form-group" style="margin-top: 10px;">
+                    <em style="color: red;">*</em>
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="please enter valid sfsu email" required>
+                </div>
+                <div class="form-group" style="margin-top: 10px;">
+                    <em style="color: red;">*</em>
+                    <label>Password</label>
+                    <input type="password1" class="form-control" placeholder="please enter password" required>
+                </div>
+                <div class="form-group" style="margin-top: 10px;">
+                    <em style="color: red;">*</em>
+                    <label for="password">Confirm Password</label>
+                    <input type="preassword1" class="form-control" placeholder="please confirm password" required>
+                </div>
+                <div style="margin-top: 10px;">
+                    <label>By continuing, you agree to SFSU
+                    </label>
+                    <br>
+                    <label>Buy/Sell/Trade's <a href="#">Conditions of Use</a> and <a href="#">Privacy
+                            Notice.</a></label>
+                </div>
+                <div class="d-grid gap-2" style="margin-top: 10px;">
+                    <a class="btn btn-primary" href="/" role="button">Register</a>
+                </div>
+            </form>
+            <div class="dropdown-divider" style="margin-top: 15px;"></div>
+            <a class="dropdown-item text-center" href="/LogIn">Already have an account? Log In</a>
 
-                <div class="dropdown-divider" style="margin-top: 10px;"></div>
-                <a class="dropdown-item text-center" href="/SignUp">New around here? Register</a>
-            </div>
         </div>
 </body>
 
