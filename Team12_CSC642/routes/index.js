@@ -33,8 +33,5 @@ router.get('/ProductPage', function(req, res, next) {
   res.render('ProductPage');
 });
 
-router.get('/LogIn', function(req, res, next) {
-  res.render('LogIn');
-});
 
 module.exports = router;
