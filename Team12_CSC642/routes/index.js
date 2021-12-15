@@ -17,8 +17,8 @@ router.get('/ResultsPage', function(req, res, next) {
   res.render('ResultsPage');
 });
 
-router.get('/Login', function(req, res, next) {
-  res.render('Login');
+router.get('/LogIn', function(req, res, next) {
+  res.render('LogIn');
 });
 
 router.get('/SignUp', function(req, res, next) {
